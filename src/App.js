@@ -1,6 +1,6 @@
 import './App.css';
 import { Preloader } from './components/Preloader/Preloader';
-import { Book } from './components/book/Book';
+import { Book } from './components/Book/Book';
 
 function App({ isLoading }) {
   return isLoading ? <Preloader /> : (
