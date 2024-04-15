@@ -1,0 +1,11 @@
+.Book {
+    border-radius: 12px;
+    border: crimson 1px solid;
+    padding: 24px 12px;
+    margin-top: 20px;
+}
+
+.Additional {
+    font-style: italic;
+    color: chocolate;
+}

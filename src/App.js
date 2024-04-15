@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import { Book } from './components/book/Book';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Book name="react" year={2023} price={12000} />
+      <Book name="angular" year={2021} price={13000} />
+      <Book name="vue" year={2020} price={14000}>
+        additional text
+      </Book>
     </div>
   );
 }
